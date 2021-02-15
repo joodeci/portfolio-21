@@ -1,5 +1,6 @@
 backend:
   name: test-repo
+  repo: joodeci/portfolio-21
 
 media_folder: static/assets
 public_folder: assets

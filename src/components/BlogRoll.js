@@ -11,15 +11,15 @@ class BlogRoll extends React.Component {
     const { edges: posts } = data.allMarkdownRemark;
 
     return (
-      <div>
+      <div class="grid">
         {posts && posts.map(({ node: post }) => (
           <a className="card" key={post.id} href={post.frontmatter.path}>
-            <article className={`grid card--content blog-list-item tile is-child box notification ${post.frontmatter.featuredpost ? 'is-featured' : ''}`}>
+            <article className={`grid blog-list-item tile is-child box notification ${post.frontmatter.featuredpost ? 'is-featured' : ''}`}>
               <div class="card--img">
                 <img src="https://media.comicbook.com/2019/12/pokemon-anime-mr-mime-1201289-1280x0.jpeg"/>
               </div>
-              <div>
-                  <h3 class="left">{post.frontmatter.title}<br/>—</h3>
+              <div class="card--content">
+                  <h3 class="left card--header">{post.frontmatter.title}<br/>—</h3>
                   <p>{post.excerpt}</p>
               </div>
             </article>

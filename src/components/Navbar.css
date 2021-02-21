@@ -1,0 +1,32 @@
+.nav-container {
+  position: sticky;
+  top: 0;
+  background-color: #0E0E0E;
+  border-bottom: 1px solid rgba(235, 232, 224, 0.4);
+}
+
+
+.nav {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  padding: 0.25rem;
+  text-decoration: none;
+}
+
+.nav-content {
+  padding: 16px 0px;
+  grid-column: main;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links a {
+  margin-left: 1rem;
+  padding: 0.25rem;
+}
+
+.logo {
+  max-width: 3rem;
+  fill: #EBE8E0;
+}

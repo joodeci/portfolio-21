@@ -8,16 +8,14 @@ import './Navbar.css';
 class Navbar extends React.Component {
   render() {
     return (
-      <header id="navbar">
-        <span>
-          <a href="/"><Logo className="logo"/></a>
-        </span>
-        <span>
-          <a href="/#work">Work</a>
-        </span>
-        <span>
-          <a href="/#contact">Contact</a>
-        </span>
+      <header class="grid nav-container" id="navbar">
+        <div class="nav-content">
+            <Logo className="logo"/>
+          <span class="nav nav-links">
+            <a href="/#work">Work</a>
+            <a href="/about">About</a>
+          </span>
+        </div>
       </header>
     )
   }

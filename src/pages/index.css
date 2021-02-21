@@ -3,7 +3,7 @@ body {
   color: #EBE8E0;
   font-size: 1.25rem;
   height: 100vh;
-  margin: 0 5vw;
+  margin: 0;
   padding: 0;
   cursor:crosshair;
   overflow-x: hidden;
@@ -12,9 +12,15 @@ body {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "left right";
+  grid-template-columns: [full-start] 48px [main-start] 1fr [text-start] repeat(10,1fr) [text-end] 1fr [main-end] 48px [full-end];
   grid-gap: 24px;
+  width: 100%;
+}
+
+.grid--title {
+  display: flex;
+  grid-column: text / text;
+  margin: 2rem 0;
 }
 
 .logo {
@@ -23,18 +29,35 @@ body {
 }
 
 #intro {
-  display: grid;
-  height: 100vh;
   align-items: center;
   justify-content: center;
-  padding: 24px 0;
+  margin: 3rem 0;
+}
+
+.intro--header {
+  display: flex;
+  grid-column: text;
+}
+
+.intro--bio {
+  display: flex;
+  grid-column: text;
+}
+
+.intro--socialmedia {
+  display: flex;
+  grid-column: text;
+  align-items: center;
+}
+
+.intro--socialmedia a {
+  margin-left: 1rem;
+  padding: 0.25rem;
+  border-bottom: 1px solid rgba(235, 232, 224, 0.4);
 }
 
 #work {
-  width: 70vw;
-  margin: 0 auto;
-  display: grid;
-  padding: 24px 0;
+  width: 100%;
 }
 
 .hide {
@@ -85,15 +108,6 @@ h5 {
   text-align: left;
 }
 
-.nav {
-  font-family: Helvetica, sans-serif;
-  font-size: 1.25rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  padding: 0.25rem;
-  text-decoration: none;
-}
-
 p {
   font-family: 'Times New Roman', serif;
   font-weight: normal;
@@ -112,4 +126,5 @@ a {
 a:hover {
   background: #EBE8E0;
   color: #0E0E0E;
+  border-radius: 0.15rem;
 }

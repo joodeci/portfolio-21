@@ -1,18 +1,40 @@
 body {
   background-color: #0E0E0E;
   color: #EBE8E0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   height: 100vh;
-  margin: 0;
+  margin: 0 5vw;
   padding: 0;
   cursor:crosshair;
+  overflow-x: hidden;
+  max-width: 100%;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "left right";
+  grid-gap: 24px;
+}
+
 .logo {
   max-width: 3rem;
   fill: #EBE8E0;
+}
+
+#intro {
+  display: grid;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 0;
+}
+
+#work {
+  width: 70vw;
+  margin: 0 auto;
+  display: grid;
+  padding: 24px 0;
 }
 
 .hide {
@@ -21,23 +43,73 @@ body {
 
 h1 {
   font-family: Helvetica, sans-serif;
-  font-size: 5rem;
+  font-size: 6.5rem;
+  line-height: 6.75rem;
   font-weight: lighter;
   text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Times New Roman', serif;
+  font-size: 2.2rem;
+  line-height: 46px;
+  font-weight: normal;
+  text-align: center;
+}
+
+h3 {
+  font-family: Helvetica, sans-serif;
+  font-size: 2.5rem;
+  line-height: 2.75rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h4 {
+  font-family: Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: lighter;
+  color: #808080;
+}
+
+h5 {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+}
+
+.left {
+  text-align: left;
+}
+
+.nav {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.25rem;
+  text-decoration: none;
 }
 
 p {
   font-family: 'Times New Roman', serif;
   font-weight: normal;
+  line-height: 1.625rem;
 }
 
 a {
   color: #EBE8E0;
-  text-decoration: underline;
-  padding: 0.25rem;
+  text-decoration: none;
+  -webkit-transition: all .1s ease-out;
+  transition: all .1s ease-out;
+  background: transparent;
+
 }
 
 a:hover {
-  background-color: #EBE8E0;
+  background: #EBE8E0;
   color: #0E0E0E;
 }

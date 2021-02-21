@@ -1,6 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { Link, graphql, StaticQuery } from 'gatsby'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Link, graphql, StaticQuery } from 'gatsby';
+import '../pages/index.css';
+import './BlogRoll.css';
+
 
 class BlogRoll extends React.Component {
   render() {
@@ -8,40 +11,20 @@ class BlogRoll extends React.Component {
     const { edges: posts } = data.allMarkdownRemark;
 
     return (
-      <div className="columns is-multiline">
-        {posts &&
-          posts.map(({ node: post }) => (
-            <div className="is-parent column is-6" key={post.id}>
-              <article
-                className={`blog-list-item tile is-child box notification ${
-                  post.frontmatter.featuredpost ? 'is-featured' : ''
-                }`}
-              >
-                <header>
-                  <p className="post-meta">
-                    <Link
-                      className="title has-text-primary is-size-4"
-                      to={post.frontmatter.path}
-                    >
-                      {post.frontmatter.title}
-                    </Link>
-                    <span> &bull; </span>
-                    <span className="subtitle is-size-5 is-block">
-                      {post.frontmatter.date}
-                    </span>
-                  </p>
-                </header>
-                <p>
-                  {post.excerpt}
-                  <br />
-                  <br />
-                  <Link className="button" to={post.frontmatter.path}>
-                    Keep Reading →
-                  </Link>
-                </p>
-              </article>
-            </div>
-          ))}
+      <div>
+        {posts && posts.map(({ node: post }) => (
+          <a className="card" key={post.id} href={post.frontmatter.path}>
+            <article className={`grid card--content blog-list-item tile is-child box notification ${post.frontmatter.featuredpost ? 'is-featured' : ''}`}>
+              <div class="card--img">
+                <img src="https://media.comicbook.com/2019/12/pokemon-anime-mr-mime-1201289-1280x0.jpeg"/>
+              </div>
+              <div>
+                  <h3 class="left">{post.frontmatter.title}<br/>—</h3>
+                  <p>{post.excerpt}</p>
+              </div>
+            </article>
+          </a>
+        ))}
       </div>
     )
   }

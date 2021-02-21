@@ -3,8 +3,7 @@ path: blog/helloword
 date: 2021-02-21T08:01:17.243Z
 title: Hello world
 ---
-Every time I close my eyes I wake up feeling so horny I can't get you outta my mind Sexin' you be all I see I would give anything Just to make you understand me I don't give a damn about nothing else\
-Freek'n you is all I need
+Every time I close my eyes I wake up feeling so horny I can't get you outta my mind Sexin' you be all I see I would give anything Just to make you understand me I don't give a damn about nothing else Freek'n you is all I need
 
 ## "You got my mind, all I wanna do is freak you"
 

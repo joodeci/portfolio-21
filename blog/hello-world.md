@@ -1,5 +1,5 @@
 ---
-path: blog/helloword
+path: /blog/helloword
 date: 2021-02-21T08:01:17.243Z
 title: Hello world
 ---

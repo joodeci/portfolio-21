@@ -2,6 +2,7 @@
 path: /blog/tournament-of-power
 thumbnail: /images/uploads/poster 1.jpg
 title: Tournament of Power
+description: This is a test description
 ---
 THE GRAND CHESS TOURNAMENT OF POWER! On April 2 & 3, a battle of spirit and minds will take place on stream. ALL DONATIONS from now until the tournament date will put into the prize pool. We will split the final prize pool among the top winners and a charity (charity is still tbd).
 

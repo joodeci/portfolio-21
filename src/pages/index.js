@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import BlogRoll from '../components/BlogRoll';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import './index.css';
 
 export default class BlogIndexPage extends React.Component {
@@ -17,7 +18,7 @@ export default class BlogIndexPage extends React.Component {
               <h5 className="intro--bio">Currently a product designer at Bold Commerce. <br/>
               Occasionally an American R&B quartet.
               </h5>
-              <h5 className="intro--socialmedia">Contact me here:
+              <h5 className="intro--socialmedia nav">Contact me here:
                 <Link to="https://www.instagram.com/joodeci">Instagram</Link>
                 <Link to="https://www.twitter.com/joodeci">Twitter</Link>
                 <Link to="https://www.are.na/joodeci">Are.na</Link>
@@ -31,7 +32,7 @@ export default class BlogIndexPage extends React.Component {
             <div class="grid"><h5 class="grid--title">Work</h5></div>
             <BlogRoll />
           </section>
-
+            <Footer />
         </main>
       </React.Fragment>
       )

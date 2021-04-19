@@ -1,0 +1,35 @@
+.footer-links {
+  display: flex;
+  grid-column: main;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-links h2 {
+  margin: 0.25rem;
+}
+
+.footer-links p {
+  border: 1px solid red;
+}
+
+.footer-links__socialmedia a {
+  border-bottom: 1px solid rgba(235, 232, 224, 0.4);
+  padding: 0.25rem;
+}
+
+.grid--title__footer {
+  grid-column: main;
+}
+
+.footer-container {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(235, 232, 224, 0.4);
+}
+
+.footer-wrapup {
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  grid-column: text;
+}

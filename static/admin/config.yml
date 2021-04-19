@@ -2,8 +2,8 @@ backend:
   name: github
   repo: joodeci/portfolio-21
 
-media_folder: static/assets
-public_folder: assets
+media_folder: static/images/uploads
+public_folder: /images/uploads
 
 collections:
   - name: blog
@@ -11,7 +11,8 @@ collections:
     folder: blog
     create: true
     fields:
-      - { name: path, label: Path }
-      - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
+      - { name: thumbnail, label: "Thumbnail", widget: "image", required: false }
+      - { label: "Description", name: "description", widget: "text", required:false }
+      - { name: path, label: Path }
       - { name: body, label: Body, widget: markdown }

@@ -4,7 +4,6 @@ import { Link, graphql, StaticQuery } from 'gatsby';
 import '../pages/index.css';
 import './BlogRoll.css';
 
-
 class BlogRoll extends React.Component {
   render() {
     const { data } = this.props;
@@ -16,11 +15,11 @@ class BlogRoll extends React.Component {
           <a className="card" key={post.id} href={post.frontmatter.path}>
             <article className={`grid blog-list-item tile is-child box notification ${post.frontmatter.featuredpost ? 'is-featured' : ''}`}>
               <div class="card--img">
-                <img src="https://media.comicbook.com/2019/12/pokemon-anime-mr-mime-1201289-1280x0.jpeg"/>
+                <img src={post.frontmatter.thumbnail}/>
               </div>
               <div class="card--content">
                   <h3 class="left card--header">{post.frontmatter.title}<br/>—</h3>
-                  <p>{post.excerpt}</p>
+                  <p>{post.frontmatter.description || post.excerpt}</p>
               </div>
             </article>
           </a>
@@ -47,11 +46,13 @@ export default () => (
         ) {
           edges {
             node {
-              excerpt(pruneLength: 400)
+              excerpt(pruneLength: 100)
               id
               frontmatter {
                 path
+                description
                 title
+                thumbnail
                 date(formatString: "MMMM DD, YYYY")
               }
             }

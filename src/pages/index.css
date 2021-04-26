@@ -1,7 +1,7 @@
 body {
-  background-color: #0E0E0E;
-  color: #EBE8E0;
-  font-size: 1.25rem;
+  background-color: #eee;
+  color: #0E0E0E;
+  font-size: 1.125rem;
   height: 100vh;
   margin: 0;
   padding: 0;
@@ -17,6 +17,29 @@ body {
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  .grid {
+    display: grid;
+    grid-template-columns: [full-start] 16px [main-start text-start] repeat(10,1fr) [text-end main-end] 16px [full-end];
+    grid-gap: 32px;
+    width: 100%;
+  }
+  .intro--socialmedia {
+    justify-content: space-around;
+    margin: 0.5rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .grid {
+    display: grid;
+    grid-template-columns: [full-start] 0 [main-start text-start] repeat(10,1fr) [text-end main-end] 0 [full-end];
+    grid-gap: 16px;
+    width: 100%;
+  }
+}
+
+
 .grid--title {
   display: flex;
   grid-column: text / text;
@@ -25,39 +48,88 @@ body {
 
 .logo {
   max-width: 3rem;
-  fill: #EBE8E0;
+  fill: #0E0E0E;
 }
 
 #intro {
   align-items: center;
   justify-content: center;
-  margin: 3rem 0;
+  margin: 5rem 0;
 }
 
 .intro--header {
   display: flex;
-  grid-column: text;
+  grid-column: main;
 }
 
 .intro--bio {
-  display: flex;
-  grid-column: text;
+  grid-column: main;
 }
 
 .intro--socialmedia {
   display: flex;
-  grid-column: text;
+  grid-column: main;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .intro--socialmedia a {
   margin-left: 1rem;
   padding: 0.25rem;
-  border-bottom: 1px solid rgba(235, 232, 224, 0.4);
+  border-bottom: 1px solid transparent;
 }
 
 #work {
   width: 100%;
+  padding-bottom: 6rem;
+}
+
+#about {
+  width: 100%;
+  padding-bottom: 6rem;
+}
+
+.about--content {
+  grid-column: span 6 / main;
+}
+
+.about--image__container {
+  grid-column: full / span 6;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+}
+
+.about--image__container img {
+  width: 100%;
+  mix-blend-mode: multiply;
+  opacity: 0.8;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .about--image__container {
+    grid-column: full !important;
+  }
+  .about--content {
+    grid-column: main !important;
+  }
+  #about {
+    padding-bottom: 3rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .about--image__container {
+    grid-column: full / span 4;
+  }
+  .about--content {
+    grid-column: span 7 / main;
+  }
+  #about {
+    padding-bottom: 3rem;
+  }
 }
 
 .hide {
@@ -66,19 +138,22 @@ body {
 
 h1 {
   font-family: Helvetica, sans-serif;
-  font-size: 6.5rem;
-  line-height: 6.75rem;
+  font-size: 4rem;
   font-weight: lighter;
-  text-transform: uppercase;
-  text-align: center;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
 }
 
 h2 {
-  font-family: 'Times New Roman', serif;
-  font-size: 2.2rem;
-  line-height: 46px;
-  font-weight: normal;
+  font-family: 'Helvetica', serif;
+  font-size: 1.8rem;
+  font-weight: lighter;
   text-align: center;
+  font-style: italic;
 }
 
 h3 {
@@ -99,9 +174,9 @@ h4 {
 
 h5 {
   font-family: Helvetica, sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: lighter;
-  text-transform: uppercase;
+  margin: 0;
 }
 
 .left {
@@ -109,22 +184,58 @@ h5 {
 }
 
 p {
-  font-family: 'Times New Roman', serif;
+  font-family: 'Spectral', serif;
   font-weight: normal;
   line-height: 1.625rem;
 }
 
 a {
-  color: #EBE8E0;
+  color: #0E0E0E;
   text-decoration: none;
   -webkit-transition: all .1s ease-out;
   transition: all .1s ease-out;
   background: transparent;
-
 }
 
 a:hover {
-  background: #EBE8E0;
-  color: #0E0E0E;
-  border-radius: 0.15rem;
+  border-bottom: 1px solid #0E0E0E;
+}
+
+/* ////// BLOG POST ////// */
+
+.blog--container {
+  grid-column: text;
+  margin-bottom: 6rem;
+}
+
+.blog--header {
+  grid-column: full;
+}
+
+.blog--header h1 {
+  font-size: 6.5rem;
+  line-height: 6.75rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.blog--content {
+  grid-column: text;
+  font-size: 1.125rem;
+}
+.blog--content p img {
+  min-height: 100%;
+  max-width: 250px;
+  min-width: 100%;
+  flex-shrink: 0;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.blog--content p {
+  margin: 3rem 0;
+}
+
+.blog--content p:last-child {
+  margin-bottom: 0;
 }

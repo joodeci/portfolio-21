@@ -9,8 +9,9 @@ class Navbar extends React.Component {
     return (
       <header class="grid nav-container" id="navbar">
         <div class="nav-content">
-            <Logo className="logo"/>
+          <Logo className="logo"/>
           <span class="nav nav-links">
+            <a href="/">Home</a>
             <a href="/#work">Work</a>
             <a href="/about">About</a>
           </span>

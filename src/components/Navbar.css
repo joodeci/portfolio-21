@@ -1,17 +1,17 @@
 .nav-container {
   position: sticky;
   top: 0;
-  background-color: #0E0E0E;
-  border-bottom: 1px solid rgba(235, 232, 224, 0.4);
+  background-color: #EEE;
+  border-bottom: 1px solid #0E0E0E;
 }
 
 
 .nav {
   font-family: Helvetica, sans-serif;
   font-size: 1.25rem;
-  text-transform: uppercase;
   padding: 0.25rem;
   text-decoration: none;
+  font-weight: lighter;
 }
 
 .nav-content {
@@ -27,6 +27,7 @@
 }
 
 .logo {
-  max-width: 3rem;
-  fill: #EBE8E0;
+  min-width: 3rem;
+  fill: #0E0E0E;
+  display: flex;
 }

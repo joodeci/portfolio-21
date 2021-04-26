@@ -18,7 +18,7 @@ class BlogRoll extends React.Component {
                 <img src={post.frontmatter.thumbnail}/>
               </div>
               <div class="card--content">
-                  <h3 class="left card--header">{post.frontmatter.title}<br/>—</h3>
+                  <h3 class="left card--header">{post.frontmatter.title}</h3>
                   <p>{post.frontmatter.description || post.excerpt}</p>
               </div>
             </article>

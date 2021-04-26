@@ -9,13 +9,17 @@
   margin: 0.25rem;
 }
 
-.footer-links p {
-  border: 1px solid red;
+.footer-links a {
+  border-bottom: 1px solid transparent;
+  margin: 0.5rem;
 }
 
-.footer-links__socialmedia a {
-  border-bottom: 1px solid rgba(235, 232, 224, 0.4);
-  padding: 0.25rem;
+.footer-links a:hover {
+  border-bottom: 1px solid #0E0E0E;
+}
+
+.footer-links__socialmedia {
+  margin-top: 1.5rem;
 }
 
 .grid--title__footer {
@@ -24,7 +28,7 @@
 
 .footer-container {
   padding-bottom: 1.5rem;
-  border-bottom: 1px solid rgba(235, 232, 224, 0.4);
+  border-bottom: 1px solid #0E0E0E;
 }
 
 .footer-wrapup {

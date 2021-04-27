@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link, graphql, StaticQuery } from 'gatsby';
+import { graphql, StaticQuery } from 'gatsby';
 import '../pages/index.css';
 import './BlogRoll.css';
 
@@ -15,7 +15,7 @@ class BlogRoll extends React.Component {
           <a className="card" key={post.id} href={post.frontmatter.path}>
             <article className={`grid blog-list-item tile is-child box notification ${post.frontmatter.featuredpost ? 'is-featured' : ''}`}>
               <div class="card--img">
-                <img src={post.frontmatter.thumbnail}/>
+                <img alt="post thumbnail" src={post.frontmatter.thumbnail}/>
               </div>
               <div class="card--content">
                   <h3 class="left card--header">{post.frontmatter.title}</h3>

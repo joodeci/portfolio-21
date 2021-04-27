@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
-import BlogRoll from '../components/BlogRoll';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import './index.css';
@@ -15,7 +13,7 @@ export default class BlogIndexPage extends React.Component {
           <section id="about">
             <div className="grid about">
               <div className="about--image__container">
-                <img src="../images/uploads/me.jpg"/>
+                <img alt="its me." src="../images/uploads/me.jpg"/>
               </div>
               <div className="about--content">
                 <h1>I'm Jodeci Correa. Product designer and occasional American R&B quartet</h1>

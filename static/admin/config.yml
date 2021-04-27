@@ -16,4 +16,4 @@ collections:
       - { label: "Description", name: "description", widget: "text", required: false }
       - { name: path, label: Path }
       - { name: body, label: Body, widget: markdown }
-      - { name: date, label: Date, widget: datetime,required: false }
+      

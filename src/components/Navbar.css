@@ -19,6 +19,7 @@
   grid-column: main;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-links a {
@@ -28,6 +29,8 @@
 
 .logo {
   min-width: 3rem;
+  max-width: 3rem;
+  height: 100%;
   fill: #0E0E0E;
   display: flex;
 }

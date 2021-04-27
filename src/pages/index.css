@@ -39,16 +39,10 @@ body {
   }
 }
 
-
 .grid--title {
   display: flex;
   grid-column: text / text;
   margin: 2rem 0;
-}
-
-.logo {
-  max-width: 3rem;
-  fill: #0E0E0E;
 }
 
 #intro {

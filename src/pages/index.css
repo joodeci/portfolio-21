@@ -178,7 +178,7 @@ h5 {
 }
 
 p {
-  font-family: 'Spectral', serif;
+  font-family: 'TimesNowLight', serif;
   font-weight: normal;
   line-height: 1.625rem;
 }
@@ -232,4 +232,9 @@ a:hover {
 
 .blog--content p:last-child {
   margin-bottom: 0;
+}
+
+@font-face {
+  font-family: 'TimesNowLight';
+  src: local('TimesNowLight'), url(../fonts/TimesNowLight.otf) format('opentype');
 }

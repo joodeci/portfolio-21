@@ -42,7 +42,7 @@ export default () => (
     query={graphql`
       query BlogRollQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
+          sort: { order: DESC, fields: [frontmatter___title] }
         ) {
           edges {
             node {
@@ -53,7 +53,6 @@ export default () => (
                 description
                 title
                 thumbnail
-                date(formatString: "MMMM DD, YYYY")
               }
             }
           }

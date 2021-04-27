@@ -36,7 +36,6 @@ export const pageQuery = graphql`
       html
       frontmatter {
         thumbnail
-        date(formatString: "MMMM DD, YYYY")
         path
         title
         description

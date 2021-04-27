@@ -42,7 +42,7 @@ export default () => (
     query={graphql`
       query FooterQuery {
         allMarkdownRemark(
-          sort: { order: DESC, fields: [frontmatter___date] }
+          sort: { order: DESC, fields: [frontmatter___title] }
         ) {
           edges {
             node {

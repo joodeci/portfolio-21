@@ -1,6 +1,6 @@
 ---
 title: Subscriptions 2.0
-thumbnail: /images/uploads/final-mocks.jpg
+thumbnail: /images/uploads/5.final-mocks.png
 description: ''
 path: /blog/subscriptions
 ---

@@ -24,6 +24,8 @@ The high level design goals for this project were:
 * Make the app accessible for anyone and everyone on any platform.
 * Give users a seamless and customizable subscription creation experience.
 
+![](/images/uploads/early-phase-mocks-2.jpg)
+
 # Constraints
 
 Our given timeline was to rebuild an entirely new app on a new platform in about a year. Starting summer of 2018 and releasing in spring/ summer of 2019. The original feature scope document listed almost 20 pages/ features to be built out and designed in this time span. Our target MVP was simply to release a well designed and working product; not necessarily offering the exact same V1 features. This was due to being more deliberate about adding meaningful features and changing how we framed and offered subscriptions in the application.
@@ -38,6 +40,8 @@ Building for multiple new platforms needed lots of research and discovery work t
 
 **Legacy migrations** - Not everyone will be eligible to upgrade to V2. Older users using legacy plans or unsupported features wouldn't be able to migrate, due to us changing the structure of our subscriptions. Those that are eligible to upgrade should have a seamless migration process and those that stay on V1 should have proper developer support.
 
+![](/images/uploads/migration-journey-map.jpg)
+
 # Process
 
 #### \*Since this covers the span of an entire application, this is just a high level overview of my design process.\*
@@ -51,8 +55,12 @@ The major key features in our scope document were broken up into their own indiv
 **Session one: Understanding, identifying and then defining problems**\
 The general goal of this day would be to solidify the problem statement for the specific feature. To start off we would refer to our product vision which looked like: "How might we provide merchants with the most powerful and flexible recurring billing solution?" This served as our baseline when framing the feature. As a team we discussed what a successful feature would look like from all perspectives; starting with the user perspective, reflecting on past user complaints and requests, and accounting for business and stakeholder goals. From here we were able to define the problem the feature would be solving and loosely set goals to determine what success looked like for this feature. Finally everyone individually wrote out their own problem statements for the feature and the questions we wanted it to solve. From here everyone openly discussed their problem statements and we created an affinity map to organize each statement by common groupings. With this we were able to see patterns in solutions we wanted to offer and if the solution wasn't abundantly clear we would take votes to determine the top 3 problem statements we wanted to solve for. The main criteria we were looking for was: what's important to the customer, what's the beneficial for the company, and what displayed flexibility among platforms.
 
+![](/images/uploads/early-phase-mocks-1.jpg)
+
 **Session two: Brainstorming and gathering solutions**\
 Now with our problem statement, this day was meant to gather a wide range of ideas and solutions. We started with discussing existing UIs and patterns that exist in any other application that may have a similar feature. They spanned from being unrelated to subscriptions entirely to being a competitor in the same market. These all spawned discussions of usability and complimentary ideas. Using the gathered inspiration and discussions we were able to identify feature standards and patterns that we could reference later on in the ideation portion. With these ideas in mind we were able to frame and stitch ideas together for specific parts of the feature, what it would look like and further refine on functionality. The take away for this day was to stretch our solutions as far as possible, which led to UI solutions and potential feature explorations
+
+![](/images/uploads/early-phase-mocks.jpg)
 
 **Session three: Voting, identifying and further refining selected solutions**\
 Given the timeline, if there was time for this session, wireframe solutions and sketches would be presented during this session. I would loosely design multiple solutions based on the previous session and present them to the product team for discussion. Key sections were sometimes pointed out and stitched together with another but discussions were mainly around opportunities for flexibility, flexibility, and technical risks and challenges. After discussions we would vote for a final solution that would lead use towards the goal and solving the problem statements set in the first session. Finally after these three sessions, I would be left with a fully fleshed out solution and ready to begin working on the final mock ups for development.
@@ -66,3 +74,5 @@ This cycle was then repeated for each additional feature. Sometimes repeated for
 **Design sprints work** - Design sprints worked as a model of efficiency when framing problems and creating solution and proved to be a precious time investment. Allowed all collaborators to brainstorm and align ideas quickly and create a common understanding across the team. This was one of the company's first attempts at a design sprint for a project of this scale and it allowed us to show its value and efficiently define a large amount of features in a tight timeline.
 
 **Simplicity is worth fighting for** - Narrowing down the scope and engaging stakeholders early in the planning process is key to narrowing down explorations and solutions. All stakeholders have different goals and ideas of what a successful product looks like. Getting them involved early on is essential for the design process and defining a common understanding for the final product.
+
+![](/images/uploads/final-mocks.jpg)

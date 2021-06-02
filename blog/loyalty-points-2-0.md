@@ -1,6 +1,6 @@
 ---
 title: Loyalty Points 2.0
-thumbnail: /images/uploads/social-graph-bold-loyalty-points.jpg
+thumbnail: /images/uploads/LP-Dashboard components.png
 description: >-
   The process, metrics, and designs behind a successful rebuild of a loyalty
   points application.
@@ -12,7 +12,7 @@ Loyalty Points is a Bold Commerce application that is used to make customer rete
 
 From late 2017-2019 I was the sole product designer for a rebuild of the Loyalty Points app at Bold Commerce. As the only product designer, I was responsible for handling both the UX research and UI rebrand challenges. Throughout this case study we’ll talk about the process of how our small team of 3 developers and 1 product manager went about rebuilding a legacy application from scratch and what we’ve learned as a company.
 
-![](/images/uploads/social-graph-bold-loyalty-points.jpg)
+![](/images/uploads/LP-web-test.png)
 
 # Problem
 
@@ -20,7 +20,9 @@ While the app was previously successful we were beginning to lose majority of ou
 
 While we were mainly targeting smaller businesses our company was pivoting to a larger scale model to target more profitable merchants and the app needed to follow suite to remain competitive. Loyalty Points was among many rebuilt apps at the company but it was also the first large application to undergo the process. So while rebuilding an application is a big deal, this rebuild was mainly used as a test to upgrade an outdated app and make it profitable in the process.
 
-![](/images/uploads/social-graph-bold-loyalty-points.jpg)
+![](/images/uploads/LP-affinity-mapping.png)
+
+![](/images/uploads/LP-expanded-affinity-map.png)
 
 # Constraints
 
@@ -34,7 +36,7 @@ While we were mainly targeting smaller businesses our company was pivoting to a 
 
 **Migration risk** - The risk with any rebuilt application is losing customers in the migration process. So our plan was to have a seamless migration and upgrade process and to make sure that we had feature parity with the previous version when Version 2 of the app was launched.
 
-![](/images/uploads/social-graph-bold-loyalty-points.jpg)
+![](/images/uploads/LP-early-explorations.jpg)
 
 # Metrics
 
@@ -42,13 +44,13 @@ While we were mainly targeting smaller businesses our company was pivoting to a 
 
 **How we are measuring success —** Our main measure of success throughout our project was to increase the number of paying application users and reduce user churn. User churn was always a big issue for the previous version and we found users were dropping off after the free trial period. With this metric we wanted to track that we had a competitive pricing and feature structure, with a focus on pushing for more enterprise level users. Using these numbers, we would be able to look into detailed statistics about each pricing tier such as: where users were dropping off, how many users were at each pricing tier, and how long users have been using our app before upgrading or downgrading their pricing tier.
 
-![](/images/uploads/social-graph-bold-loyalty-points.jpg)
+![](/images/uploads/LP-early-wireframes.jpg)
 
 # Process
 
 A large part of the process before jumping into high fidelity mock ups was framing the migration process from V1 to V2 and plenty of brainstorm meetings with developers, our support team, and company stakeholders to determine app structure and key features for the app launch. Actively reaching out to our V1 users for research calls and working with our support team to keep track of common complaints or request for the previous version. We reached out to customers that had left low review scores for the app on the Shopify marketplace for both user feedback sessions and user testing of what we had planned for Version 2. We also sent out feedback surveys to those that recently uninstalled and provided them with the option to hop on calls to provide feedback on Version 1. Through hearing feature validation from both users of version 1 and feature requests and complaints from our support team, we were able to figure out what key features our app was missing and what was needed for launch to satisfy our customers needs. By the end of our design sprint process we had a fully fleshed out and user-backed list of features that would put our app in a competitive position on the Shopify marketplace. With this knowledge in hand, I dove head first into wireframing to validate user flows with stakeholders and finally high fidelity mocks and prototypes to determine the final look and feel of our new internal design system and storefront widget.
 
-![](/images/uploads/social-graph-bold-loyalty-points.jpg)
+![](/images/uploads/LP-hi-fi-template-layout-explorations.png)
 
 # Challenges
 
@@ -58,10 +60,22 @@ This app redesign was very much an experiment and validation for our company's a
 
 In hindsight, a lot of the design challenges that occurred later on in the apps lifecycle were because of inefficient planning and not enough design sprints to plan out different iterations of the app as it grew. If we were to rebuild the app again more thought would be put into ensuring that the storefront widget was built with its own design patterns in mind and as modular as possible so that it could continue to grow as features were added. The same goes for the admin side of the app, I would have planned out more of the design system and explored more UI patterns in the discovery phase before jumping into the high fidelity designs.
 
-![](/images/uploads/social-graph-bold-loyalty-points.jpg)
+![](/images/uploads/LP-early-system-exploration1.png)
+
+![](/images/uploads/LP-early-system-exploration2.png)
+
+![](/images/uploads/LP-early-system-exploration3.png)
+
+![](/images/uploads/LP-Dashboard components.png)
 
 # Solutions
 
 In the end, our launch date ended being pushed by a quarter for technical reasons but despite being launched during our typical dry season for installs, we a saw an increase in all of our targeted metrics. Our user growth increased by 37% in its first quarter of being released and along with this the apps earnings were also increased. More users were upgrading to our paid tiers and the number of active users were up 64% and the numbers of users that kept our app for longer than a day was up 79%. From a metrics standpoint our app succeeded for all the metrics that we planned to hit. Our user installation churn was decreased and our total number of users was significantly increased.
 
-![](/images/uploads/social-graph-bold-loyalty-points.jpg)
+![](/images/uploads/LP-Retro points 1.png)
+
+![](/images/uploads/LP-admin-hifi.png)
+
+![](/images/uploads/LP-hi-fi-template-concepts.jpg)
+
+![](/images/uploads/LP-hi-fi-mocks.jpg)

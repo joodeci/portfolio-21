@@ -19,7 +19,7 @@ class BlogRoll extends React.Component {
               </div>
               <div class="card--content">
                   <h3 class="left card--header">{post.frontmatter.title}</h3>
-                  <p>{post.frontmatter.description || post.excerpt}</p>
+                  <h4>{post.frontmatter.description}</h4>
               </div>
             </article>
           </a>

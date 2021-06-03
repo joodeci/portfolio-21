@@ -10,9 +10,14 @@ body {
   max-width: 100%;
 }
 
+::selection {
+  color: #eee;
+  background: #0E0E0E;
+}
+
 .grid {
   display: grid;
-  grid-template-columns: [full-start] 48px [main-start] 1fr [text-start] repeat(10,1fr) [text-end] 1fr [main-end] 48px [full-end];
+  grid-template-columns: [full-start] 96px [main-start] 1fr [text-start] repeat(10,1fr) [text-end] 1fr [main-end] 96px [full-end];
   grid-gap: 24px;
   width: 100%;
 }
@@ -36,6 +41,13 @@ body {
     grid-template-columns: [full-start] 0 [main-start text-start] repeat(10,1fr) [text-end main-end] 0 [full-end];
     grid-gap: 16px;
     width: 100%;
+  }
+  .blog--content p img {
+    position: inherit !important;
+    width: 100% !important;
+    -webkit-transform: none !important;
+    -moz-transform: none !important;
+    transform: none !important;
   }
 }
 
@@ -138,7 +150,16 @@ h1 {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.5rem !important;
+  }
+  .blog--header h1 {
+    font-size: 2.5rem !important;
+  }
+  .blog--content {
+    font-size: 1.125rem !important;
+  }
+  h3 {
+    font-size: 2rem !important;
   }
 }
 
@@ -178,9 +199,13 @@ h5 {
 }
 
 p {
-  font-family: 'TimesNowLight', serif;
+  font-family: 'TimesNow', serif;
   font-weight: normal;
-  line-height: 1.625rem;
+}
+
+li {
+  font-family: 'TimesNow', serif;
+  font-weight: normal;
 }
 
 a {
@@ -207,27 +232,42 @@ a:hover {
 }
 
 .blog--header h1 {
-  font-size: 6.5rem;
-  line-height: 6.75rem;
+  font-size: 4rem;
   text-transform: uppercase;
   text-align: center;
 }
 
 .blog--content {
   grid-column: text;
-  font-size: 1.125rem;
+  font-size: 1.35rem;
+  line-height: 2rem;
 }
+
 .blog--content p img {
-  min-height: 100%;
-  max-width: 250px;
-  min-width: 100%;
+  position: relative;
+  max-height: 100%;
+  width: 150%;
+  left: 50%;
   flex-shrink: 0;
   -o-object-fit: cover;
   object-fit: cover;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
+  padding: 2rem 0;
 }
 
 .blog--content p {
-  margin: 3rem 0;
+  margin: 1rem 0;
+}
+
+.blog--content h1 {
+  font-size: 2rem;
+  margin-top: 2.5rem;
+}
+
+.blog--content h4 {
+  margin: 0;
 }
 
 .blog--content p:last-child {
@@ -235,6 +275,12 @@ a:hover {
 }
 
 @font-face {
-  font-family: 'TimesNowLight';
-  src: local('TimesNowLight'), url(../fonts/TimesNowLight.otf) format('opentype');
+  font-family: 'TimesNow';
+  src: local('TimesNow'), url(../fonts/TimesNow.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'TimesNow';
+  src: local('TimesNowBold'), url(../fonts/TimesNowBold.otf) format('opentype');
+  font-weight: bold;
 }

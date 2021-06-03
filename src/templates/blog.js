@@ -26,7 +26,6 @@ export default function Template({
       </div>
       <IndexFooter />
       <Footer />
-
     </React.Fragment>
   )
 }

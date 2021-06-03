@@ -64,6 +64,7 @@ a.card:hover {
   }
 
   .card--content {
+    margin: auto 0;
     grid-column: main !important;
   }
 }

@@ -1,7 +1,9 @@
 ---
 title: Subscriptions 2.0
-thumbnail: /images/uploads/5.final-mocks.png
-description: ''
+thumbnail: /images/uploads/subscriptions.png
+description: >-
+  Subscriptions is the leading recurring orders app on multiple e-commerce
+  platforms.
 path: /blog/subscriptions
 ---
 Subscriptions is an e-commerce plugin application that is used to make recurring revenue easy for store owners. The app gives store owners a way to sell products on a recurring basis and manage customer subscriptions all from with their chosen platform. Currently both versions of the app process millions of dollars worth of subscriptions for merchants including: [Lashify](https://lashify.com/), [Humanrace](https://www.humanrace.com/), and [Liquid Death](https://liquiddeath.com/). Since mid 2018 the app has been fully rebuilt and redesigned while maintaining its user base.
@@ -26,6 +28,8 @@ The high level design goals for this project were:
 
 ![](/images/uploads/early-phase-mocks-2.jpg)
 
+#### Early phase page layout options and feature breakdowns from design sprint sessions.
+
 # Constraints
 
 Our given timeline was to rebuild an entirely new app on a new platform in about a year. Starting summer of 2018 and releasing in spring/ summer of 2019. The original feature scope document listed almost 20 pages/ features to be built out and designed in this time span. Our target MVP was simply to release a well designed and working product; not necessarily offering the exact same V1 features. This was due to being more deliberate about adding meaningful features and changing how we framed and offered subscriptions in the application.
@@ -40,7 +44,9 @@ Building for multiple new platforms needed lots of research and discovery work t
 
 **Legacy migrations** - Not everyone will be eligible to upgrade to V2. Older users using legacy plans or unsupported features wouldn't be able to migrate, due to us changing the structure of our subscriptions. Those that are eligible to upgrade should have a seamless migration process and those that stay on V1 should have proper developer support.
 
-![](/images/uploads/2.migration-journey-map.png)
+![User flow diagram breaking down the migration process from Version 1 to Version 2.](/images/uploads/2.migration-journey-map.png)
+
+#### Journey map.
 
 # Process
 
@@ -57,10 +63,14 @@ The general goal of this day would be to solidify the problem statement for the 
 
 ![](/images/uploads/3.early-phase-mocks.png)
 
+#### The many pages of scope documents to analyze each feature and mock up reviews.
+
 **Session two: Brainstorming and gathering solutions**\
 Now with our problem statement, this day was meant to gather a wide range of ideas and solutions. We started with discussing existing UIs and patterns that exist in any other application that may have a similar feature. They spanned from being unrelated to subscriptions entirely to being a competitor in the same market. These all spawned discussions of usability and complimentary ideas. Using the gathered inspiration and discussions we were able to identify feature standards and patterns that we could reference later on in the ideation portion. With these ideas in mind we were able to frame and stitch ideas together for specific parts of the feature, what it would look like and further refine on functionality. The take away for this day was to stretch our solutions as far as possible, which led to UI solutions and potential feature explorations
 
 ![](/images/uploads/4.early-phase-mocks.png)
+
+#### Initial rounds of high fidelity mock ups and page layout explorations.
 
 **Session three: Voting, identifying and further refining selected solutions**\
 Given the timeline, if there was time for this session, wireframe solutions and sketches would be presented during this session. I would loosely design multiple solutions based on the previous session and present them to the product team for discussion. Key sections were sometimes pointed out and stitched together with another but discussions were mainly around opportunities for flexibility, flexibility, and technical risks and challenges. After discussions we would vote for a final solution that would lead use towards the goal and solving the problem statements set in the first session. Finally after these three sessions, I would be left with a fully fleshed out solution and ready to begin working on the final mock ups for development.
@@ -76,3 +86,5 @@ This cycle was then repeated for each additional feature. Sometimes repeated for
 **Simplicity is worth fighting for** - Narrowing down the scope and engaging stakeholders early in the planning process is key to narrowing down explorations and solutions. All stakeholders have different goals and ideas of what a successful product looks like. Getting them involved early on is essential for the design process and defining a common understanding for the final product.
 
 ![](/images/uploads/5.final-mocks.png)
+
+#### Final high fidelity mock ups.

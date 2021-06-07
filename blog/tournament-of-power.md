@@ -44,9 +44,9 @@ Building for multiple new platforms needed lots of research and discovery work t
 
 **Legacy migrations** - Not everyone will be eligible to upgrade to V2. Older users using legacy plans or unsupported features wouldn't be able to migrate, due to us changing the structure of our subscriptions. Those that are eligible to upgrade should have a seamless migration process and those that stay on V1 should have proper developer support.
 
-![User flow diagram breaking down the migration process from Version 1 to Version 2.](/images/uploads/2.migration-journey-map.png)
+![](/images/uploads/2.migration-journey-map.png)
 
-#### Journey map.
+#### User journey map diagram showing the migration process from Version 1 to Version 2.
 
 # Process
 

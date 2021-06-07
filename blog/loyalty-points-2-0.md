@@ -54,13 +54,11 @@ While we were mainly targeting smaller businesses our company was pivoting to a 
 
 ![](/images/uploads/LP-early-wireframes.jpg)
 
-#### The selected low fidelity explorations that were used as reference for the final storefront widget. 
+#### The selected low fidelity explorations that were used as reference for the final storefront widget.
 
 # Process
 
 A large part of the process before jumping into high fidelity mock ups was framing the migration process from V1 to V2 and plenty of brainstorm meetings with developers, our support team, and company stakeholders to determine app structure and key features for the app launch. Actively reaching out to our V1 users for research calls and working with our support team to keep track of common complaints or request for the previous version. We reached out to customers that had left low review scores for the app on the Shopify marketplace for both user feedback sessions and user testing of what we had planned for Version 2. We also sent out feedback surveys to those that recently uninstalled and provided them with the option to hop on calls to provide feedback on Version 1. Through hearing feature validation from both users of version 1 and feature requests and complaints from our support team, we were able to figure out what key features our app was missing and what was needed for launch to satisfy our customers needs. By the end of our design sprint process we had a fully fleshed out and user-backed list of features that would put our app in a competitive position on the Shopify marketplace. With this knowledge in hand, I dove head first into wireframing to validate user flows with stakeholders and finally high fidelity mocks and prototypes to determine the final look and feel of our new internal design system and storefront widget.
-
-
 
 ![](/images/uploads/LP-hi-fi-mocks.jpg)
 
@@ -84,7 +82,7 @@ In hindsight, a lot of the design challenges that occurred later on in the apps 
 
 ![](/images/uploads/LP-early-system-exploration3.png)
 
-#### Few of many dashboard explorations. Exploring layout and variations on data displayed.
+#### The selected few of dashboard explorations. Exploring layout and variations on data displayed.
 
 ![](/images/uploads/LP-Dashboard components.png)
 

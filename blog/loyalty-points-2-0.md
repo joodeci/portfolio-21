@@ -1,6 +1,6 @@
 ---
 title: Loyalty Points 2.0
-thumbnail: /images/uploads/LP-Dashboard components.png
+thumbnail: /images/uploads/social-graph-bold-loyalty-points.jpg
 description: >-
   The process, metrics, and designs behind a successful rebuild of a loyalty
   points application.

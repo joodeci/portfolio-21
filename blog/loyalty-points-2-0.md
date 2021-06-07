@@ -2,8 +2,8 @@
 title: Loyalty Points 2.0
 thumbnail: /images/uploads/social-graph-bold-loyalty-points.jpg
 description: >-
-  The process, metrics, and designs behind a successful rebuild of a loyalty
-  points application.
+  Fully redesigned and rebuilt, Loyalty Points 2.0 was successfully relaunched
+  on Shopify in 2018.
 path: /blog/loyalty-points
 ---
 # Overview
@@ -14,6 +14,8 @@ From late 2017-2019 I was the sole product designer for a rebuild of the Loyalty
 
 ![](/images/uploads/LP-web-test.png)
 
+#### Low fidelity mock up explorations for the storefront widget.
+
 # Problem
 
 While the app was previously successful we were beginning to lose majority of our users to competitors as we had fallen behind in both features and was generally just outdated. App support was overrun with usability complaints and too much technical debt was built up over the years that even caused us consider axing the app entirely. The app was losing money and our supported features were out of date compared to our competitors on the market.
@@ -22,7 +24,11 @@ While we were mainly targeting smaller businesses our company was pivoting to a 
 
 ![](/images/uploads/LP-affinity-mapping.png)
 
+#### Force map notes from initial brainstorm meetings to break down elements of features and pages.
+
 ![](/images/uploads/LP-expanded-affinity-map.png)
+
+#### Refined notes of the force map brainstorm findings.
 
 # Constraints
 
@@ -38,6 +44,8 @@ While we were mainly targeting smaller businesses our company was pivoting to a 
 
 ![](/images/uploads/LP-early-explorations.jpg)
 
+#### Early phase low fidelity explorations of the storefront widget.
+
 # Metrics
 
 **Here’s the predicted outcome we’re designing for —** The general product vision was to increase our merchant's repeat customer purchases by offering a powerful set of retention tools and features. We planned to increase active users by creating a unique set of loyalty features to differentiate our Loyalty program from competitors and to decrease the number of uninstalls after the free trial period. We planned to do more user research on our pricing structure to provide more meaningful app features at a reasonable and scalable price tier. Our predicted outcome was to increase the number of active users and decrease our installation churn.
@@ -46,11 +54,21 @@ While we were mainly targeting smaller businesses our company was pivoting to a 
 
 ![](/images/uploads/LP-early-wireframes.jpg)
 
+#### The selected low fidelity explorations that were used as reference for the final storefront widget. 
+
 # Process
 
 A large part of the process before jumping into high fidelity mock ups was framing the migration process from V1 to V2 and plenty of brainstorm meetings with developers, our support team, and company stakeholders to determine app structure and key features for the app launch. Actively reaching out to our V1 users for research calls and working with our support team to keep track of common complaints or request for the previous version. We reached out to customers that had left low review scores for the app on the Shopify marketplace for both user feedback sessions and user testing of what we had planned for Version 2. We also sent out feedback surveys to those that recently uninstalled and provided them with the option to hop on calls to provide feedback on Version 1. Through hearing feature validation from both users of version 1 and feature requests and complaints from our support team, we were able to figure out what key features our app was missing and what was needed for launch to satisfy our customers needs. By the end of our design sprint process we had a fully fleshed out and user-backed list of features that would put our app in a competitive position on the Shopify marketplace. With this knowledge in hand, I dove head first into wireframing to validate user flows with stakeholders and finally high fidelity mocks and prototypes to determine the final look and feel of our new internal design system and storefront widget.
 
+
+
+![](/images/uploads/LP-hi-fi-mocks.jpg)
+
+#### Early mobile prototype example of the storefront widget and the initial widget screens.
+
 ![](/images/uploads/LP-hi-fi-template-layout-explorations.png)
+
+#### The final high fidelity mock ups of the storefront widget and the various use cases.
 
 # Challenges
 
@@ -66,7 +84,11 @@ In hindsight, a lot of the design challenges that occurred later on in the apps 
 
 ![](/images/uploads/LP-early-system-exploration3.png)
 
+#### Few of many dashboard explorations. Exploring layout and variations on data displayed.
+
 ![](/images/uploads/LP-Dashboard components.png)
+
+#### A collection of various components created during dashboard and report explorations.
 
 # Solutions
 
@@ -74,8 +96,12 @@ In the end, our launch date ended being pushed by a quarter for technical reason
 
 ![](/images/uploads/LP-Retro points 1.png)
 
+#### The final mock up used for the MVP release of the dashboard.
+
 ![](/images/uploads/LP-admin-hifi.png)
+
+#### High fidelity mocks used for the Storefront Widget customization page, Referral feature and Customer Tier feature.
 
 ![](/images/uploads/LP-hi-fi-template-concepts.jpg)
 
-![](/images/uploads/LP-hi-fi-mocks.jpg)
+#### The final storefront widget on development and examples used to display how customizable the final product was.

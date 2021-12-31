@@ -14,7 +14,7 @@ export default class BlogIndexPage extends React.Component {
 
           <section id="intro">
             <div className="grid">
-              <h1 className="intro--header">Hello! Jodeci Correa is a human being + currently a product designer at Bold Commerce.</h1>
+              <h1 className="intro--header">Hello! Jodeci Correa is a human being + currently a product designer at Article.</h1>
 {/*              <h5 className="intro--bio">Currently a product designer at Bold Commerce. <br/>
               Occasionally an American R&B quartet.
               </h5> */}

@@ -17,7 +17,7 @@ class Footer extends React.Component {
         </h5>
         <div class="footer-wrapup">
           <h4>Made with love using: React.JS, Netlify and Gatsby<br/>
-          © Jodeci Correa Scrapbook ‘21</h4>
+          © Jodeci Correa Scrapbook ‘22</h4>
         </div>
       </div>
     )

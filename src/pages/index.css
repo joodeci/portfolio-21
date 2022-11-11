@@ -64,12 +64,14 @@ body {
 }
 
 .intro--header {
-  display: flex;
+  /*display: flex;*/
   grid-column: main;
 }
 
 .intro--bio {
   grid-column: main;
+  font-size: 2.5rem;
+  margin-top: 0;
 }
 
 .intro--socialmedia {
@@ -97,6 +99,11 @@ body {
 
 .about--content {
   grid-column: span 6 / main;
+  margin: auto;
+}
+
+.about--content__title{
+  font-size: 2.5rem;
 }
 
 .about--image__container {
